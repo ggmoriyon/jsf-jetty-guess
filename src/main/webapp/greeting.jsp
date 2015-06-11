@@ -47,7 +47,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
       <h:graphicImage id="waveImg" url="/wave.med.gif" alt="Duke waving" />
       <h:inputText id="userNo" label="User Number" value="#{UserNumberBean.userNumber}"
       		   converterMessage="#{ErrMsg.userNoConvert}">
-                      <f:validateLongRange minimum="#{UserNumberBean.minimum}" maximum="#{UserNumberBean.maximum}" /> 
+          <f:validateLongRange minimum="#{UserNumberBean.minimum}" maximum="#{UserNumberBean.maximum}" /> 
       </h:inputText>
       <h:commandButton id="submit" action="success" value="Submit" />
       <p>
